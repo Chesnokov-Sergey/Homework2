@@ -52,17 +52,17 @@ public class Main {
 
         // Задание 6
         System.out.println("Задание 6");
-        var theBoxer1 = 78.2;
-        var theBoxer2 = 82.7;
-        var massBoxer = theBoxer1 + theBoxer2;
+        var theBoxerone = 78.2;
+        var theBoxertwo = 82.7;
+        var massBoxer = theBoxerone + theBoxertwo;
         System.out.println("Масса двух бойцов " + massBoxer + " кг");
-        var differencBoxer = theBoxer2 - theBoxer1;
+        var differencBoxer = theBoxertwo - theBoxerone;
         System.out.println("Разницу между массами двух бойцов " + differencBoxer + " кг");
 
         // Задание 7
         System.out.println("Задание 7");
-        var remainsBoxer = theBoxer2 % theBoxer1;
-        System.out.println("Остаток от деления между двумя весами " + remainsBoxer + " кг!");
+        var remainsBoxer = theBoxertwo % theBoxerone;
+        System.out.println("Остаток от деления между двумя весами " + remainsBoxer + " кг");
 
         // Задание 8
         System.out.println("Задание 8");
