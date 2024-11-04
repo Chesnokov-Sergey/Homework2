@@ -43,21 +43,22 @@ public class Main {
         byte twentyMinutes = 20;
         byte oneDay = 1;
         byte threeDay = 3;
-        byte onemonth = 1;
+        byte oneMonth = 1;
 
-        short oneDay1 = 60*24;
+        int oneMinutes = twentyMinutes / 20;
+        int oneDay1 = oneMinutes * 1440;
         int threeDay1 = oneDay1 * 3;
-        int onemonth1 = oneDay1 * 30;
+        int oneMonth1 = oneDay1 * 30;
 
-        int bottleCapacity1 = bottleCapacity * twentyMinutes ;
-        int bottleCapacity2= bottleCapacity * oneDay1;
-        int bottleCapacity3= bottleCapacity * threeDay1;
-        int bottleCapacity4= bottleCapacity * onemonth1;
+        int bottleCapacity1 = bottleCapacity * twentyMinutes;
+        int bottleCapacity2 = bottleCapacity * oneDay1;
+        int bottleCapacity3 = bottleCapacity * threeDay1;
+        int bottleCapacity4 = bottleCapacity * oneMonth1;
 
         System.out.println("За " + twentyMinutes + " минут" + " машина произвела " +  bottleCapacity1 + " штук бутылок");
         System.out.println("За " + oneDay + " сутки" + " машина произвела " +  bottleCapacity2 + " штук бутылок");
         System.out.println("За " + threeDay + " дня" + " машина произвела " +  bottleCapacity3 + " штук бутылок");
-        System.out.println("За " + onemonth + " месяц" + " машина произвела " +  bottleCapacity4 + " штук бутылок");
+        System.out.println("За " + oneMonth + " месяц" + " машина произвела " +  bottleCapacity4 + " штук бутылок");
 
         // Задание 5
         System.out.println("Задание 5");
