@@ -39,7 +39,7 @@ public class Main {
 
         // Задание 4
         System.out.println("Задание 4");
-        byte bottleCapacity = 8;
+        byte machinePerformancetwominutes = 16;
         byte twentyMinutes = 20;
         byte oneDay = 1;
         byte threeDay = 3;
@@ -50,15 +50,16 @@ public class Main {
         int threeDay1 = oneDay1 * 3;
         int oneMonth1 = oneDay1 * 30;
 
-        int bottleCapacity1 = bottleCapacity * twentyMinutes;
-        int bottleCapacity2 = bottleCapacity * oneDay1;
-        int bottleCapacity3 = bottleCapacity * threeDay1;
-        int bottleCapacity4 = bottleCapacity * oneMonth1;
+        int machinePerformanceoneminutes = machinePerformancetwominutes / 2;
+        int machinePerformance1 = machinePerformanceoneminutes * twentyMinutes;
+        int machinePerformance2 = machinePerformanceoneminutes * oneDay1;
+        int machinePerformance3 = machinePerformanceoneminutes * threeDay1;
+        int machinePerformance4 = machinePerformanceoneminutes * oneMonth1;
 
-        System.out.println("За " + twentyMinutes + " минут" + " машина произвела " +  bottleCapacity1 + " штук бутылок");
-        System.out.println("За " + oneDay + " сутки" + " машина произвела " +  bottleCapacity2 + " штук бутылок");
-        System.out.println("За " + threeDay + " дня" + " машина произвела " +  bottleCapacity3 + " штук бутылок");
-        System.out.println("За " + oneMonth + " месяц" + " машина произвела " +  bottleCapacity4 + " штук бутылок");
+        System.out.println("За " + twentyMinutes + " минут" + " машина произвела " +  machinePerformance1 + " штук бутылок");
+        System.out.println("За " + oneDay + " сутки" + " машина произвела " +  machinePerformance2 + " штук бутылок");
+        System.out.println("За " + threeDay + " дня" + " машина произвела " +  machinePerformance3 + " штук бутылок");
+        System.out.println("За " + oneMonth + " месяц" + " машина произвела " +  machinePerformance4 + " штук бутылок");
 
         // Задание 5
         System.out.println("Задание 5");
