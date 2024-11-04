@@ -40,17 +40,17 @@ public class Main {
         // Задание 4
         System.out.println("Задание 4");
         byte machinePerformancetwominutes = 16;
+        byte oneMinutes = 1;
         byte twentyMinutes = 20;
         byte oneDay = 1;
         byte threeDay = 3;
         byte oneMonth = 1;
 
-        int oneMinutes = twentyMinutes / 20;
-        int oneDay1 = oneMinutes * 1440;
+        int machinePerformanceoneminutes = machinePerformancetwominutes / 2;
+        int oneDay1 = oneMinutes * 1_440;
         int threeDay1 = oneDay1 * 3;
         int oneMonth1 = oneDay1 * 30;
 
-        int machinePerformanceoneminutes = machinePerformancetwominutes / 2;
         int machinePerformance1 = machinePerformanceoneminutes * twentyMinutes;
         int machinePerformance2 = machinePerformanceoneminutes * oneDay1;
         int machinePerformance3 = machinePerformanceoneminutes * threeDay1;
